@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA9AB54719D1CD080094F713 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9AB54619D1CD080094F713 /* Contact.swift */; };
 		AAD0DAB319D1CB3D00B69C15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD0DAB219D1CB3D00B69C15 /* AppDelegate.swift */; };
 		AAD0DAB519D1CB3D00B69C15 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD0DAB419D1CB3D00B69C15 /* MasterViewController.swift */; };
 		AAD0DAB719D1CB3D00B69C15 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD0DAB619D1CB3D00B69C15 /* DetailViewController.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA9AB54619D1CD080094F713 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		AAD0DAAD19D1CB3D00B69C15 /* Contact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contact.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAD0DAB119D1CB3D00B69C15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAD0DAB219D1CB3D00B69C15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 		AAD0DAD619D1CBAA00B69C15 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				AA9AB54619D1CD080094F713 /* Contact.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA9AB54719D1CD080094F713 /* Contact.swift in Sources */,
 				AAD0DAB719D1CB3D00B69C15 /* DetailViewController.swift in Sources */,
 				AAD0DAB519D1CB3D00B69C15 /* MasterViewController.swift in Sources */,
 				AAD0DAB319D1CB3D00B69C15 /* AppDelegate.swift in Sources */,
@@ -367,6 +371,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Contact/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -377,6 +382,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Contact/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
